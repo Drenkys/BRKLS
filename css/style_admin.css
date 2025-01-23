@@ -1,0 +1,200 @@
+main{
+    text-align: center;
+}
+.colection_form,
+.product_form {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styly pro nadpisy formulářů */
+.colection_form h3,
+.product_form h3 {
+    margin-top: 0;
+}
+
+/* Styly pro vstupní pole a textová pole v formulářích */
+.colection_form input[type="text"],
+.colection_form input[type="number"],
+.colection_form textarea,
+.product_form input[type="text"],
+.product_form input[type="number"],
+.product_form textarea {
+    width: calc(100% - 22px); /* 10px padding po stranách + 1px okraj */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Zahrnutí polí včetně okraje v celkové šířce */
+}
+
+/* Styly pro tlačítka v formulářích */
+.colection_form input[type="submit"],
+.product_form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.colection_form input[type="submit"]:hover,
+.product_form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styly pro výběr s radio tlačítky */
+.colection_form input[type="radio"],
+.product_form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Styly pro popisky výběru s radio tlačítky */
+.colection_form label,
+.product_form label {
+    font-weight: normal;
+}
+
+/* Styly pro poznamky pod formuláři */
+.colection_form p,
+.product_form p {
+    margin-top: 20px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.item_table{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+tbody textarea{
+    resize: none;
+}
+.products table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+.products textarea{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    background: none;
+}
+.products th, .products td {
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.products th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.products tr{
+    height: 100%;
+}
+.row_product{
+    height: 150%;
+}
+.products td.name {
+    width: 14%;
+}
+.admin_reservation{
+    box-shadow: 0px 0px 2px 1px black;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: orange;
+    margin-top: 4px;
+}
+.admin_sell{
+    box-shadow: 0px 0px 2px 1px black;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: red;
+    margin-top: 4px;
+}
+.products td.img {
+    width: 11%;
+}
+.price_admin{
+    width: 6%;
+}
+.price_admin textarea{
+    width: 100%;
+    overflow: hidden;
+}
+.discount_admin{
+    width: 6%;
+}
+.discount_admin textarea{
+    width: 100%;
+}
+
+.products td.img img {
+    max-width: 100%;
+    /* max-height: 100%; */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.products tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.products input[type="number"] {
+    /* -webkit-appearance: none; */
+    margin: 0; /* Optional, prohlížeče mohou mít výchozí okraje */
+    border: 0px #fff;
+}
+.products input[type="number"]::-webkit-inner-spin-button,
+.products input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Optional */
+}
+.action{
+    width: 9%;
+}
+.action input{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0px
+}
+.edit_button{
+    width: 100%;
+    background-color: #3B98A4;
+    box-shadow: 0px 0px 2px 2px black;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;
+}
+ .reservation_button{
+    width: 100%;
+    background-color: #b3b3b3;
+    box-shadow: 0px 0px 2px 2px black;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;
+} 
+.delete_button{
+    width: 100%;
+    background-color: red;
+    box-shadow: 0px 0px 2px 2px black;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: black;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #45a049;
+    transition: 0.5s;
+}

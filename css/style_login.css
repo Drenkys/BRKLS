@@ -1,0 +1,22 @@
+h3{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    min-width: 400px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 1px orange;
+    border: 1px solid black;
+    border-radius: 20px;
+    gap: 15px;
+}
+.login form input{
+    padding: 5px 20px;
+    margin: 20px 0px;
+}

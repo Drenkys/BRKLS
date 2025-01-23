@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1545px) {
+    .index_product .product_wrap:last-child {
+        display: none;
+      }
+}
+@media only screen and (max-width: 1160px) {
+    .index_product .product_wrap:nth-last-child(2) {
+        display: none;
+      }
+}
+@media only screen and (max-width: 900px) {
+    .menu ul{
+        display: none;
+    }
+    .open_menu img{
+        display: block;
+    }
+    .product_gallery{
+        width: 100%;
+    }
+    .current_image img{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .thumbnails_img{
+        width: 20%;
+    }
+    .thumbnails img{
+        width: 100%;
+    }
+    /* prohození nadpisu kvuli mobilum*/
+    .product_mobile_name{
+        font-size: 50px;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .product_serie{
+        margin-bottom: 20px;
+    }
+    .product_description .product_name{
+        display: none;
+    }
+    .product_flex{
+        padding-top: 20px;
+    }
+    .product_description{
+        width: 100%;
+    }
+    .product_long_description{
+        margin-bottom: 0px;
+    }
+    .close{
+    color: #ffffff;
+    font-size: 95px;
+    }
+    /***** Patička ******/
+    .footer_contact{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 760px){
+    .product_flex{
+        width: 95%;
+        gap: 15px;
+    }
+    .product_wrap {
+        width: 170px;
+        height: 410px;
+        font-size: 14px;
+    }
+    .product_img{
+        height: 60%;
+    }
+    .product_wrap .product_name{
+        font-size: 14px!important;
+    }
+    .product_wrap .price{
+        font-size: 17px;
+    }
+/*******  písmo kontaktniho formulare ********/
+    .contact_form h3{
+        font-size: 20px;
+    }
+    .contact_form form{
+        font-size: 16px;
+    }
+    .contact_form form input{
+        font-size: 16px;
+        width: 75%;
+        padding: 2px;
+    }
+    .contact_form textarea{
+        font-size: 16px;
+        width: 85%;
+    }
+    /******* Index mobile ********/
+    .welcome h1{
+        font-size: 30px;
+    }
+    .welcome_img, .welcome_text{
+        width: 100%;
+        text-align: center;
+    }
+    .welcome_img img{
+        width: 90%;
+    }
+    .welcome_text p{
+        font-size: 20px;
+    }
+    /******* GDPR ********/
+    .gdpr{
+        width: 95%;
+        font-size: 16px;
+    }
+    .gdpr h2, .gdpr h3{
+        font-size: 30px;
+    }
+    .product_contact_button a {
+        padding: 0px 16px;
+        margin-top: 12px;
+    }
+        /******* ADMIn ********/
+    .action input[type="submit"]{
+        font-size: 12px;
+        padding: 1px 0px;
+    }
+    .delete_button, .edit_button, .reservation_button{
+        padding: 0px;
+    }
+    .thumbnail{
+        max-width: 50px;
+    }
+    /******* ADMIN tabulka ********/
+    .products table{
+        font-size: 11px;
+    }
+    .products textarea{
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .short_info textarea{
+        font-size: 8px!important;
+    }
+    .products .img{
+        display: none;
+    }
+    .action .button{
+        font-size: 8px!important;
+    }
+}
+@media only screen and (max-width: 600px){
+    /********* produkty ********/
+    .product_flex{
+        gap: 10px!important;
+        box-shadow: none;
+    }
+    .product_wrap{
+        width: 160px;
+        height: 380px;
+    }
+    .index_product .product_wrap{
+        width: 160px;
+        height: 380px;
+    }
+    .index_product{
+        gap:10px;
+    }
+    .index_product .price{
+        font-size: 17px!important;
+    }
+    .index_product .product_info{
+        font-size: 14px!important;
+    }
+    /***** Welcome video *****/
+    .welcome_video iframe{
+        width: 336px;
+        height: 189px;
+    }
+/******* KONTAKT *******/
+    .contact_header p{
+        font-size: 22px;
+        width: 95%;
+        text-shadow: 1px 1px 0px rgba(0,0,0,1);
+        text-shadow: -1px -1px 0px rgba(0,0,0,1);
+    }
+    .contact_content h3{
+        font-size: 40px;
+    }
+    .contact_content p{
+        font-size: 22px;
+    }
+    .map_section p, .map_section h2{
+        font-size: 24px;
+        width: 95%;
+    }
+}

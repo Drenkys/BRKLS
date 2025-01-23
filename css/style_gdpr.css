@@ -1,0 +1,19 @@
+.gdpr{
+    width: 80%;
+    margin: 0px auto;
+    font-size: 24px;
+}
+.gdpr h2{
+    font-size: 45px;
+    text-align: center;
+    margin: 40px auto;
+}
+.gdpr h3{
+    font-size: 45px;
+    text-align: center;
+    margin: 20px auto;
+}
+.gdpr .list{
+    margin-left: 30px;
+    list-style-type: disc;
+}
